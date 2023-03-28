@@ -8,5 +8,4 @@ O usuario ao digitar seu nome, altura e peso, clicando no botão "CALCULAR IMC".
 
 Terá seu IMC representado na tela, e com a faixa que o próprio se encontra, podendo ser: abaixo do peso, peso normal, excesso de peso, obesidade grau I, grau II, ou grau III.
 
-![Capturar2](https://user-images.githubusercontent.com/111713549/228215723-505f7e5a-97fd-468b-87d4-8e2fe4c44a4c.PNG)
-
+![Capturar3](https://user-images.githubusercontent.com/111713549/228219203-bc9db947-1c56-4e44-9d3f-4cf8ada70c60.PNG)
