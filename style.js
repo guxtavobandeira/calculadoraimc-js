@@ -7,19 +7,19 @@ function calcular(){
     var faixa=""
 
     if(imc<18.5){
-        faixa=`${usuario}`+", seu IMC é "+`${imc}`+ ", você está abaixo do peso normal"
+        faixa = "abaixo do peso normal"
     }else if(imc<24.9){
-        faixa=`${usuario}`+", seu IMC é "+`${imc}`+ ", você está com o peso normal"
+        faixa = "com peso normal"
     }else if(imc<29.9){
-        faixa=`${usuario}`+", seu IMC é "+`${imc}`+ ", você está com excesso de peso"
+        faixa = "com excesso de peso"
     }else if(imc<34.9){
-        faixa=`${usuario}`+", seu IMC é "+`${imc}`+ ", você está com obesidade classe I"
+        faixa = "com obesidade classe I"
     }else if(imc<39.9){
-        faixa=`${usuario}`+", seu IMC é "+`${imc}`+ ", você está com obesidade classe II"
+        faixa = "com obesidade classe II"
     }else if(imc<40.0){
-        faixa=`${usuario}`+", seu IMC é "+`${imc}`+ ", você está com obesidade classe III"
+        faixa = "com obesidade classe III"
     }
 
-    document.getElementById("resultado").innerText=faixa
+    document.getElementById("resultado").innerText=`${usuario} , seu IMC é ${imc.toFixed(2)}, você está ${faixa}`
 
 }
