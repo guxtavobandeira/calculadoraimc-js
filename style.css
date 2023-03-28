@@ -1,3 +1,14 @@
+body{
+    overflow: hidden;
+    background: url(https://c.wallhere.com/photos/4d/f0/street_camera_blackandwhite_bw_white_black_building_london-916163.jpg!d) no-repeat center;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
 h1,h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
