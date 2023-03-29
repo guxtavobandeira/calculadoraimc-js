@@ -19,7 +19,5 @@ function calcular(){
     }else if(imc<40.0){
         faixa = "com obesidade classe III"
     }
-
-    document.getElementById("resultado").innerText=`${usuario} , seu IMC é ${imc.toFixed(2)}, você está ${faixa}`
-
+    resultado.textContent = `${usuario}, seu IMC é ${imc.toFixed(2)}, você está ${faixa}`
 }
