@@ -1,6 +1,6 @@
 body{
     overflow: hidden;
-    background: url(https://c.wallhere.com/photos/4d/f0/street_camera_blackandwhite_bw_white_black_building_london-916163.jpg!d) no-repeat center;
+    background: url(https://www.actionacademia.com.br/background2.jpg) no-repeat center;
     background-size: 100%;
     display: flex;
     align-items: center;
@@ -33,6 +33,7 @@ h2{
     align-items: center;
     padding: 3em;
     border-radius: 1em;
+    border: 2px solid white;
 }
 
 .titulo_resultado{
